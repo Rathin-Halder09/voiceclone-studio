@@ -104,7 +104,6 @@ export default function App() {
           {currentSection === 'text-to-speech' && <TextToSpeechPage />}
           {currentSection === 'quality-lab' && <QualityLabPage />}
           {currentSection === 'audio-library' && <AudioLibraryPage />}
-          {currentSection === 'download-app' && <DownloadAppPage />}
           {currentSection === 'settings' && <SettingsPage />}
           {currentSection === 'privacy' && <PrivacyPage />}
           {currentSection === 'help' && <HelpPage />}
