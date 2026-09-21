@@ -26,6 +26,7 @@ export default function App() {
     { id: 'text-to-speech', label: 'Text to Speech', icon: Volume2 },
     { id: 'quality-lab', label: 'Quality Lab', icon: Award },
     { id: 'audio-library', label: 'Audio Library', icon: Library },
+    { id: 'download-app', label: 'Download App', icon: Download },
     { id: 'settings', label: 'Settings', icon: Settings },
     { id: 'privacy', label: 'Privacy & Consent', icon: Shield },
     { id: 'help', label: 'Help', icon: HelpCircle },
@@ -103,6 +104,7 @@ export default function App() {
           {currentSection === 'text-to-speech' && <TextToSpeechPage />}
           {currentSection === 'quality-lab' && <QualityLabPage />}
           {currentSection === 'audio-library' && <AudioLibraryPage />}
+          {currentSection === 'download-app' && <DownloadAppPage />}
           {currentSection === 'settings' && <SettingsPage />}
           {currentSection === 'privacy' && <PrivacyPage />}
           {currentSection === 'help' && <HelpPage />}
